@@ -159,7 +159,7 @@ try {
             
             <div style="text-align: center; margin-bottom: 2rem;">
                 <form action="./Pages/projets.php" method="GET" style="display: inline-flex; gap: 10px; max-width: 500px; width: 100%;">
-                    <input type="text" name="recherche" placeholder="Rechercher un projet (ex: Arduino, MySQL...)" style="flex: 1; padding: 10px 15px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.1); background: rgba(255,255,255,0.05); color: white;">
+                    <input type="text" name="q" placeholder="Rechercher un projet (ex: Arduino, MySQL...)" style="flex: 1; padding: 10px 15px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.1); background: rgba(255,255,255,0.05); color: white;">
                     <button type="submit" class="btn btn-primary" style="padding: 10px 20px;">🔍</button>
                 </form>
             </div>
@@ -195,4 +195,5 @@ try {
     
     <?php require "./Composants/pied-de-page.php"; ?>
 </body>
+
 </html>
